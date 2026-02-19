@@ -10,7 +10,7 @@ let reviews = [
         name: "P. Dickx",
         rating: 2,
         text: "I liked the orignal more."
-    },
+    }, 
     {
         name: "Student 1",
         rating: 1,
@@ -28,7 +28,6 @@ function renderReviews() {
 
 // 4. Initial Render
 // Call the function once on load to show the initial data
-renderReviews();
 
 // 5. Handle Form Submission
 // 5.1 Stop the page from reloading!
